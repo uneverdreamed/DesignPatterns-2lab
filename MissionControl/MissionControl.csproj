@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Handlers\TransformationHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Handlers\TransformationHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CommandCore\CommandCore.csproj" />
   </ItemGroup>
 
