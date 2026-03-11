@@ -9,7 +9,10 @@
 
   <ItemGroup>
     <Folder Include="Handlers\" />
-    <Folder Include="Pipeline\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommandCore\CommandCore.csproj" />
   </ItemGroup>
 
 </Project>
